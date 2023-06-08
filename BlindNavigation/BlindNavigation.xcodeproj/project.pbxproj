@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283636682A1610B400522B2A /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283636672A1610B400522B2A /* Experience.swift */; };
+		2836366A2A16112700522B2A /* Clock Cartoon.caf in Resources */ = {isa = PBXBuildFile; fileRef = 283636692A16112700522B2A /* Clock Cartoon.caf */; };
+		2836366C2A16126600522B2A /* Afloat Pad.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2836366B2A16126600522B2A /* Afloat Pad.caf */; };
+		2836366E2A1612BF00522B2A /* Experience.reality in Resources */ = {isa = PBXBuildFile; fileRef = 2836366D2A1612BF00522B2A /* Experience.reality */; };
+		283EBE582A14D5CE00BCAEE4 /* DepthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283EBE572A14D5CD00BCAEE4 /* DepthView.swift */; };
+		283EBE5A2A14D5F000BCAEE4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283EBE592A14D5EF00BCAEE4 /* Helpers.swift */; };
+		283EBE5C2A14D61C00BCAEE4 /* Speak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283EBE5B2A14D61C00BCAEE4 /* Speak.swift */; };
+		283EBE5E2A14D63A00BCAEE4 /* RealityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283EBE5D2A14D63A00BCAEE4 /* RealityViewController.swift */; };
+		283EBE602A14D65B00BCAEE4 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283EBE5F2A14D65B00BCAEE4 /* HUD.swift */; };
+		283EBE622A14D67C00BCAEE4 /* AppleSampleCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283EBE612A14D67C00BCAEE4 /* AppleSampleCode.swift */; };
+		287444032A17E6850019EAFC /* MyObjectDetectorOfTong.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 287444022A17E6850019EAFC /* MyObjectDetectorOfTong.mlmodel */; };
+		287444052A17E6AE0019EAFC /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 287444042A17E6AE0019EAFC /* YOLOv3.mlmodel */; };
+		287444072A17E6BA0019EAFC /* ObjectDetector.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 287444062A17E6BA0019EAFC /* ObjectDetector.mlpackage */; };
+		287444102A17E9FF0019EAFC /* DetectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874440F2A17E9FE0019EAFC /* DetectorView.swift */; };
+		2874441A2A186DB20019EAFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287444192A186DB20019EAFC /* ViewController.swift */; };
+		AE921D2A270D7B02000E95C6 /* LiDARDepthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE921D29270D7B02000E95C6 /* LiDARDepthApp.swift */; };
+		AE921D2C270D7B02000E95C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE921D2B270D7B02000E95C6 /* ContentView.swift */; };
+		AE921D2E270D7B04000E95C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE921D2D270D7B04000E95C6 /* Assets.xcassets */; };
+		AE921D31270D7B04000E95C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE921D30270D7B04000E95C6 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C34ECABC9005D93C0DF4297 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		283636672A1610B400522B2A /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		283636692A16112700522B2A /* Clock Cartoon.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Clock Cartoon.caf"; sourceTree = "<group>"; };
+		2836366B2A16126600522B2A /* Afloat Pad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Afloat Pad.caf"; sourceTree = "<group>"; };
+		2836366D2A1612BF00522B2A /* Experience.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = Experience.reality; sourceTree = "<group>"; };
+		283EBE572A14D5CD00BCAEE4 /* DepthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthView.swift; sourceTree = "<group>"; };
+		283EBE592A14D5EF00BCAEE4 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		283EBE5B2A14D61C00BCAEE4 /* Speak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speak.swift; sourceTree = "<group>"; };
+		283EBE5D2A14D63A00BCAEE4 /* RealityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityViewController.swift; sourceTree = "<group>"; };
+		283EBE5F2A14D65B00BCAEE4 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		283EBE612A14D67C00BCAEE4 /* AppleSampleCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSampleCode.swift; sourceTree = "<group>"; };
+		287444022A17E6850019EAFC /* MyObjectDetectorOfTong.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyObjectDetectorOfTong.mlmodel; sourceTree = "<group>"; };
+		287444042A17E6AE0019EAFC /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
+		287444062A17E6BA0019EAFC /* ObjectDetector.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = ObjectDetector.mlpackage; sourceTree = "<group>"; };
+		2874440F2A17E9FE0019EAFC /* DetectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectorView.swift; sourceTree = "<group>"; };
+		287444192A186DB20019EAFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9ED80CBFEB14F0F0F5121BC6 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		AE7889AD271DB86E00B0383F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AE921D26270D7B02000E95C6 /* LiDARDepth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiDARDepth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE921D29270D7B02000E95C6 /* LiDARDepthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiDARDepthApp.swift; sourceTree = "<group>"; };
+		AE921D2B270D7B02000E95C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE921D2D270D7B04000E95C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE921D30270D7B04000E95C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE921D23270D7B02000E95C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2836366F2A172BD500522B2A /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				287444062A17E6BA0019EAFC /* ObjectDetector.mlpackage */,
+				287444022A17E6850019EAFC /* MyObjectDetectorOfTong.mlmodel */,
+				287444042A17E6AE0019EAFC /* YOLOv3.mlmodel */,
+				2836366D2A1612BF00522B2A /* Experience.reality */,
+				283636692A16112700522B2A /* Clock Cartoon.caf */,
+				2836366B2A16126600522B2A /* Afloat Pad.caf */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		283EBE562A14D59500BCAEE4 /* Depth */ = {
+			isa = PBXGroup;
+			children = (
+				283EBE572A14D5CD00BCAEE4 /* DepthView.swift */,
+				283EBE592A14D5EF00BCAEE4 /* Helpers.swift */,
+				283EBE5B2A14D61C00BCAEE4 /* Speak.swift */,
+				283EBE5D2A14D63A00BCAEE4 /* RealityViewController.swift */,
+				283636672A1610B400522B2A /* Experience.swift */,
+				283EBE5F2A14D65B00BCAEE4 /* HUD.swift */,
+				283EBE612A14D67C00BCAEE4 /* AppleSampleCode.swift */,
+			);
+			path = Depth;
+			sourceTree = "<group>";
+		};
+		287444082A17E6F30019EAFC /* ObjectDetector */ = {
+			isa = PBXGroup;
+			children = (
+				287444192A186DB20019EAFC /* ViewController.swift */,
+				2874440F2A17E9FE0019EAFC /* DetectorView.swift */,
+			);
+			path = ObjectDetector;
+			sourceTree = "<group>";
+		};
+		AE921D1D270D7B02000E95C6 = {
+			isa = PBXGroup;
+			children = (
+				AE921D28270D7B02000E95C6 /* LiDARDepth */,
+				AE921D27270D7B02000E95C6 /* Products */,
+				AEA6FCEE272AED0C002947D4 /* Frameworks */,
+				C42CD530FDC5FDCBE24A185E /* Configuration */,
+				EA03DA1400B7EED6A2A7C7E7 /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		AE921D27270D7B02000E95C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE921D26270D7B02000E95C6 /* LiDARDepth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE921D28270D7B02000E95C6 /* LiDARDepth */ = {
+			isa = PBXGroup;
+			children = (
+				AE921D29270D7B02000E95C6 /* LiDARDepthApp.swift */,
+				AEC8871B272EB01200ED6FCC /* Views */,
+				287444082A17E6F30019EAFC /* ObjectDetector */,
+				283EBE562A14D59500BCAEE4 /* Depth */,
+				AE921D2D270D7B04000E95C6 /* Assets.xcassets */,
+				AE7889AD271DB86E00B0383F /* Info.plist */,
+				2836366F2A172BD500522B2A /* resource */,
+				AE921D2F270D7B04000E95C6 /* Preview Content */,
+			);
+			path = LiDARDepth;
+			sourceTree = "<group>";
+		};
+		AE921D2F270D7B04000E95C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE921D30270D7B04000E95C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AEA6FCEE272AED0C002947D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEC8871B272EB01200ED6FCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE921D2B270D7B02000E95C6 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C42CD530FDC5FDCBE24A185E /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9ED80CBFEB14F0F0F5121BC6 /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		EA03DA1400B7EED6A2A7C7E7 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				0C34ECABC9005D93C0DF4297 /* LICENSE.txt */,
+			);
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE921D25270D7B02000E95C6 /* LiDARDepth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE921D34270D7B04000E95C6 /* Build configuration list for PBXNativeTarget "LiDARDepth" */;
+			buildPhases = (
+				AE921D22270D7B02000E95C6 /* Sources */,
+				AE921D23270D7B02000E95C6 /* Frameworks */,
+				AE921D24270D7B02000E95C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiDARDepth;
+			productName = DepthAPISample;
+			productReference = AE921D26270D7B02000E95C6 /* LiDARDepth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE921D1E270D7B02000E95C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					AE921D25270D7B02000E95C6 = {
+						CreatedOnToolsVersion = 13.2;
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = AE921D21270D7B02000E95C6 /* Build configuration list for PBXProject "BlindNavigation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE921D1D270D7B02000E95C6;
+			productRefGroup = AE921D27270D7B02000E95C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE921D25270D7B02000E95C6 /* LiDARDepth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE921D24270D7B02000E95C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2836366E2A1612BF00522B2A /* Experience.reality in Resources */,
+				2836366C2A16126600522B2A /* Afloat Pad.caf in Resources */,
+				2836366A2A16112700522B2A /* Clock Cartoon.caf in Resources */,
+				AE921D31270D7B04000E95C6 /* Preview Assets.xcassets in Resources */,
+				AE921D2E270D7B04000E95C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE921D22270D7B02000E95C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2874441A2A186DB20019EAFC /* ViewController.swift in Sources */,
+				287444032A17E6850019EAFC /* MyObjectDetectorOfTong.mlmodel in Sources */,
+				283636682A1610B400522B2A /* Experience.swift in Sources */,
+				287444102A17E9FF0019EAFC /* DetectorView.swift in Sources */,
+				283EBE5C2A14D61C00BCAEE4 /* Speak.swift in Sources */,
+				283EBE582A14D5CE00BCAEE4 /* DepthView.swift in Sources */,
+				283EBE5E2A14D63A00BCAEE4 /* RealityViewController.swift in Sources */,
+				287444052A17E6AE0019EAFC /* YOLOv3.mlmodel in Sources */,
+				283EBE5A2A14D5F000BCAEE4 /* Helpers.swift in Sources */,
+				283EBE602A14D65B00BCAEE4 /* HUD.swift in Sources */,
+				287444072A17E6BA0019EAFC /* ObjectDetector.mlpackage in Sources */,
+				AE921D2C270D7B02000E95C6 /* ContentView.swift in Sources */,
+				283EBE622A14D67C00BCAEE4 /* AppleSampleCode.swift in Sources */,
+				AE921D2A270D7B02000E95C6 /* LiDARDepthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AE921D32270D7B04000E95C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED80CBFEB14F0F0F5121BC6 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE921D33270D7B04000E95C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED80CBFEB14F0F0F5121BC6 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE921D35270D7B04000E95C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED80CBFEB14F0F0F5121BC6 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"LiDARDepth/Preview Content\"";
+				DEVELOPMENT_TEAM = 73ZGT3RNBK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiDARDepth/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ton.BlindNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE921D36270D7B04000E95C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED80CBFEB14F0F0F5121BC6 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"LiDARDepth/Preview Content\"";
+				DEVELOPMENT_TEAM = 73ZGT3RNBK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiDARDepth/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ton.BlindNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE921D21270D7B02000E95C6 /* Build configuration list for PBXProject "BlindNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE921D32270D7B04000E95C6 /* Debug */,
+				AE921D33270D7B04000E95C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE921D34270D7B04000E95C6 /* Build configuration list for PBXNativeTarget "LiDARDepth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE921D35270D7B04000E95C6 /* Debug */,
+				AE921D36270D7B04000E95C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE921D1E270D7B02000E95C6 /* Project object */;
+}
